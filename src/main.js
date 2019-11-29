@@ -7,6 +7,9 @@ import store from './store'
 import Vant from 'vant'
 import 'vant/lib/index.css'
 
+//  根据屏幕宽度动态设置rem基准值
+import 'amfe-flexible'
+
 //  注册vant组件
 Vue.use(Vant)
 
